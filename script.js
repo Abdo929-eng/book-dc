@@ -52,14 +52,14 @@ for(let i=0;i<arr.length;i++){
 container+=`<div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="inner">
                     <div class="card">
-                        <img src="./image/159202.jpg" class="card-img-top w-100" alt="...">
+                        <img src="image/images.png" class="card-img-top w-100" alt="...">
                         <div class="card-body d-flex flex-column">
                           <p>index :  ${i} </p>
                           <p>WebsiteName :  ${arr[i].name} </p>
                           <p>Url :${arr[i].SiteURL} </p>
-                          <div class="card-footer d-flex justify-content-around">
-                            <button id="vis" onclick="visit(${i})">Visit</button>
-                            <button id="del" onclick="delet(${i})">Delet</button>
+                          <div class="card-footer bg-white d-flex justify-content-around">
+                            <button class="bg-white text-black border border-0 bt" id="vis" onclick="visit(${i})">Visit</button>
+                            <button class="bg-white text-black border border-0 bt" id="del" onclick="delet(${i})">Delet</button>
                           </div>
                           
                         </div>
