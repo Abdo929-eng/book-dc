@@ -1,0 +1,26 @@
+body{
+    background: #24353f !important;
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+
+
+
+.group{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    background: #24353f !important;
+    width:500px !important;
+
+}
+.cl{
+   color: rgb(23, 162, 184);
+}
+
+input{
+    background: rgb(0, 0, 0,0.1) !important;
+    border: 1px solid #ced4da !important;
+}
+
+::placeholder{
+    color:#ced4da !important;
+}
